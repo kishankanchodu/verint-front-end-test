@@ -4,9 +4,11 @@ export const initialState = {
     customers: List.of()
 };
 
-export default (state = initialState, action) => {
-    switch(action.type) {
+const reducer = (state = initialState, action) => {
+    switch (action.type) {
         default:
             return state;
     }
 }
+
+export default reducer;
